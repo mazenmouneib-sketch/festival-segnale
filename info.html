@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Info e luoghi — Segnale</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Segnale<span>Festival di design</span></a>
+      <nav aria-label="Navigazione principale">
+        <a href="index.html">Home</a>
+        <a href="programma.html">Programma</a>
+        <a href="info.html" aria-current="page">Info e luoghi</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto" class="container">
+    <section class="intro">
+      <p class="eyebrow">12–13 giugno · Torino · Festival immaginario</p>
+      <h1 id="titolo-info">Info e luoghi</h1>
+      <p class="lead">Scopri le sedi che ospitano gli appuntamenti di Segnale.</p>
+      <p class="reading-text">Il festival si sviluppa in tre luoghi di Torino. Usa i comandi per esplorare le fotografie e conoscere le sedi; nel Programma trovi gli orari degli incontri, dei laboratori e delle mostre.</p>
+    </section>
+
+    <section class="content-section" aria-labelledby="titolo-sedi">
+      <h2 id="titolo-sedi">Le sedi del festival</h2>
+
+      <div class="venue-slider">
+        <div class="swiper venue-swiper" aria-label="Fotografie delle sedi del festival">
+          <div class="swiper-wrapper">
+            <figure class="swiper-slide venue-slide">
+              <img src="assets/luoghi/mirafiori.jpg" alt="Edificio del complesso di Mirafiori, con struttura esterna rossa e facciate vetrate" width="1200" height="675">
+              <figcaption>
+                <h3>Mirafiori</h3>
+                <p>Una sede dal carattere contemporaneo, riconoscibile per la struttura architettonica rossa e le ampie superfici vetrate.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="swiper-slide venue-slide">
+              <img src="assets/luoghi/politecnico-valentino.jpg" alt="Cortile del Castello del Valentino, con le facciate storiche del complesso" width="1200" height="675">
+              <figcaption>
+                <h3>Politecnico - Valentino</h3>
+                <p>Il complesso del Valentino accoglie i visitatori in un contesto storico, tra architetture monumentali e spazi aperti.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="swiper-slide venue-slide">
+              <img src="assets/luoghi/sede-centrale.jpg" alt="Facciata dell'edificio della sede centrale, affacciata sulla strada" width="1200" height="675">
+              <figcaption>
+                <h3>Sede centrale</h3>
+                <p>Un edificio urbano che si affaccia sulla città e costituisce il terzo punto di riferimento del festival.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="venue-controls" aria-label="Comandi per scorrere le sedi">
+          <button class="venue-button venue-prev" type="button" aria-label="Mostra la sede precedente">Precedente</button>
+          <p class="venue-counter" aria-live="polite"><span class="venue-current">1</span> / 3</p>
+          <button class="venue-button venue-next" type="button" aria-label="Mostra la sede successiva">Successivo</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="content-section" aria-labelledby="titolo-mappa">
+      <h2 id="titolo-mappa">Mappa delle sedi</h2>
+      <p class="reading-text">Esplora la posizione delle tre sedi di riferimento del festival sulla mappa interattiva.</p>
+      <div class="map-embed">
+        <iframe
+          id="mappa-sedi"
+          title="Mappa delle tre sedi di riferimento per il festival Segnale a Torino"
+          src="https://umap.openstreetmap.fr/it/map/segnale-sedi-del-festival-immaginario_1479665?scaleControl=false&amp;miniMapControl=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true#12/45.0465/7.6528"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="map-fullscreen">
+        <a href="https://umap.openstreetmap.fr/it/map/segnale-sedi-del-festival-immaginario_1479665?scaleControl=false&amp;miniMapControl=false&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true#12/45.0465/7.6528" target="_blank" rel="noopener noreferrer">Visualizza la mappa a schermo intero</a>
+      </p>
+    </section>
+
+    <section class="content-section" aria-labelledby="titolo-indirizzi">
+      <h2 id="titolo-indirizzi">Indirizzi delle sedi</h2>
+      <p class="reading-text">Puoi consultare gli indirizzi e aprire le indicazioni stradali per raggiungere ciascuna sede.</p>
+      <div class="address-grid">
+        <article class="address-card">
+          <h3>Sede centrale</h3>
+          <p>Corso Duca degli Abruzzi 24, Torino</p>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Corso+Duca+degli+Abruzzi+24%2C+Torino" target="_blank" rel="noopener noreferrer">Indicazioni stradali per la sede centrale</a>
+        </article>
+        <article class="address-card">
+          <h3>Politecnico al Valentino</h3>
+          <p>Viale Mattioli 39, Torino</p>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Viale+Mattioli+39%2C+Torino" target="_blank" rel="noopener noreferrer">Indicazioni stradali per il Valentino</a>
+        </article>
+        <article class="address-card">
+          <h3>Sede di Mirafiori</h3>
+          <p>Corso Luigi Settembrini 178, Torino</p>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Corso+Luigi+Settembrini+178%2C+Torino" target="_blank" rel="noopener noreferrer">Indicazioni stradali per Mirafiori</a>
+        </article>
+      </div>
+    </section>
+    
+<!-- 
+    <section class="content-section photo-credits" aria-labelledby="titolo-fonti">
+      <h2 id="titolo-fonti">Fonti delle fotografie</h2>
+      <ul>
+        <li><strong>Sede centrale:</strong> Neq00, <a href="https://commons.wikimedia.org/wiki/File:Politecnico_di_Torino,_sede_di_corso_Duca_degli_Abruzzi,_Torino.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</li>
+        <li><strong>Valentino:</strong> Simo.Albo80, <a href="https://commons.wikimedia.org/wiki/File:Il_cortile_geometrico_del_Valentino.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</li>
+        <li><strong>Mirafiori:</strong> <a href="https://www.icis.it/wp-content/uploads/2024/10/L2300-CENTRO-DESIGN-anteprima.jpg" target="_blank" rel="noopener noreferrer">ICIS</a>.</li>
+      </ul>
+    </section>
+-->
+    <section class="content-section">
+      <h2 id="titolo-organizzazione">Come orientarsi</h2>
+      <p class="reading-text">Gli appuntamenti sono distribuiti tra venerdì 12 e sabato 13 giugno. Prima di partecipare, verifica nel <a href="programma.html">Programma</a> l'orario e la sede dell'attività che ti interessa.</p>
+      <p class="reading-text">Festival, sedi ed eventi sono inventati per questa esercitazione. Le fotografie sono utilizzate come riferimento visivo e non costituiscono indicazioni di accesso o indirizzi ufficiali.</p>
+      <a class="button-link" href="programma.html">Consulta il programma</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>Segnale · Progetto didattico · Festival immaginario</p></div></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.js"></script>
+  <script>
+    const venueCounter = document.querySelector(".venue-current");
+
+    const venueSwiper = new Swiper(".venue-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      loop: false,
+      autoplay: false,
+      navigation: {
+        nextEl: ".venue-next",
+        prevEl: ".venue-prev"
+      },
+      on: {
+        init: function () {
+          venueCounter.textContent = this.realIndex + 1;
+        },
+        slideChange: function () {
+          venueCounter.textContent = this.realIndex + 1;
+        }
+      }
+    });
+  </script>
+</body>
+</html>
